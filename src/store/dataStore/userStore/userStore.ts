@@ -12,7 +12,6 @@ class UserStore {
   constructor() {
     makeObservable(this);
   }
-  
 }
 
 const userStore = new UserStore();
